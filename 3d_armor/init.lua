@@ -476,10 +476,10 @@ end)
 
 if armor.config.fire_protect == true then
 
-	-- make torches hurt
-	minetest.override_item("default:torch", {damage_per_second = 1})
-	minetest.override_item("default:torch_wall", {damage_per_second = 1})
-	minetest.override_item("default:torch_ceiling", {damage_per_second = 1})
+	-- don't make torches hurt :D
+	--minetest.override_item("default:torch", {damage_per_second = 1})
+	--minetest.override_item("default:torch_wall", {damage_per_second = 1})
+	--minetest.override_item("default:torch_ceiling", {damage_per_second = 1})
 
 	-- check player damage for any hot nodes we may be protected against
 	minetest.register_on_player_hpchange(function(player, hp_change, reason)
