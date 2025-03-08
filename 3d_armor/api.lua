@@ -180,8 +180,8 @@ armor.config = {
 	set_elements = "head torso legs feet shield",
 	set_multiplier = 1.1,
 	water_protect = true,
-	fire_protect = minetest.get_modpath("ethereal") ~= nil,
-	fire_protect_torch = minetest.get_modpath("ethereal") ~= nil,
+	fire_protect = false,
+	fire_protect_torch = false,
 	feather_fall = true,
 	punch_damage = true,
 }
